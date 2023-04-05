@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Add a vehicle"
+        android:textAlignment="center"
+        android:textColor="#111F50"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:width="190dp"
+        android:text="This infromation help as provide the most relevant data"
+        android:textAlignment="center"
+        android:textColor="#4A567F"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/backbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:width="260dp"
+        android:height="150px"
+        android:backgroundTint="#9FBACF"
+        android:text="Add+"
+        android:textAllCaps="false"
+        app:cornerRadius="20dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="right"
+        android:paddingRight="50dp"
+        android:text="Skip"
+        android:textAllCaps="false"
+        android:textColor="#4A5980"
+        android:textSize="20dp" />
+
+</LinearLayout>
